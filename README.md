@@ -147,7 +147,7 @@ Mobile View
 **Infal Fatima**
 
 GitHub:
-https://github.com/InfalFatima
+[View Source Code on GitHub](https://github.com/InfalFatima/currency-converter)
 
 ## 📄 License
 
