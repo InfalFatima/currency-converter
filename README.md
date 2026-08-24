@@ -45,18 +45,22 @@ currency-converter/
 ├── public/
 ├── src/
 │   ├── components/
-│   │   └── InputBox.jsx
+│   │   ├── InputBox.jsx
+│   │   └── index.js
 │   ├── hooks/
 │   │   └── useCurrencyInfo.js
 │   ├── App.jsx
 │   ├── main.jsx
 │   └── index.css
+├── screenshots/
+│   ├── DesktopView.png
+│   └── mobileView.png
 ├── .gitignore
 ├── index.html
 ├── package.json
+├── package-lock.json
 ├── vite.config.js
 └── README.md
-```
 
 > The exact project structure may vary depending on the current implementation.
 
