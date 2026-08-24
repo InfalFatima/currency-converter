@@ -140,7 +140,7 @@ Mobile View
 
 ## 🌐 Live Demo
 
-*Add your deployed project link here.*
+[View Live Demo](https://currency-converter-flax-one.vercel.app/)
 
 ## 👩‍💻 Author
 
