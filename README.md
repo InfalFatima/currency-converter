@@ -129,14 +129,13 @@ Some improvements that could be added in the future:
 
 ## 📸 Screenshots
 
-*Add screenshots of the application here.*
+### Desktop View
 
-Example:
+![Currency Converter Desktop](./screenshots/DesktopView.png)
 
-```text
-Desktop View
-Mobile View
-```
+### Mobile View
+
+![Currency Converter Mobile](./screenshots/mobileView.png)
 
 ## 🌐 Live Demo
 
