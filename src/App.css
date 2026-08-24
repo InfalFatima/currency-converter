@@ -1,0 +1,114 @@
+.converter-card {
+  background: rgba(15, 23, 42, 0.72);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow:
+    0 25px 70px rgba(0, 0, 0, 0.45),
+    inset 0 1px 0 rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(20px);
+}
+
+.input-card {
+  background: rgba(255, 255, 255, 0.035);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 1.25rem;
+  padding: 1.25rem;
+  transition:
+    border-color 0.2s ease,
+    background 0.2s ease;
+}
+
+.input-card:focus-within {
+  border-color: rgba(59, 130, 246, 0.45);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.amount-input::-webkit-inner-spin-button,
+.amount-input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.amount-input {
+  appearance: textfield;
+}
+
+.currency-select {
+  transition:
+    border-color 0.2s ease,
+    background 0.2s ease;
+}
+
+.currency-select:hover {
+  background: rgba(30, 41, 59, 1);
+}
+
+.currency-select:focus {
+  border-color: rgba(59, 130, 246, 0.5);
+}
+
+.swap-button {
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.swap-button:hover {
+  transform: rotate(180deg);
+  background: rgba(37, 99, 235, 0.2);
+  border-color: rgba(59, 130, 246, 0.4);
+}
+
+.convert-button {
+  letter-spacing: 0.01em;
+}
+
+.convert-button:not(:disabled):hover {
+  transform: translateY(-1px);
+}
+
+.convert-button:not(:disabled):active {
+  transform: translateY(0);
+}
+
+.background-glow {
+  position: absolute;
+  width: 22rem;
+  height: 22rem;
+  border-radius: 9999px;
+  filter: blur(100px);
+  opacity: 0.12;
+}
+
+.background-glow-one {
+  background: #2563eb;
+  top: 5%;
+  left: 10%;
+}
+
+.background-glow-two {
+  background: #4f46e5;
+  bottom: 5%;
+  right: 10%;
+}
+
+.loading-dot {
+  width: 0.45rem;
+  height: 0.45rem;
+  border-radius: 9999px;
+  background: #60a5fa;
+  animation: pulse 1s infinite ease-in-out;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 0.3;
+    transform: scale(0.8);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
